@@ -1,0 +1,35 @@
+{
+  "name": "dashboard",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "baconjs": "^0.7.95",
+    "bootstrap-sass": "^3.3.7",
+    "classnames": "^2.2.5",
+    "moment": "^2.18.1",
+    "rambda": "^0.8.8",
+    "ramda": "^0.24.1",
+    "react": "15.6.1",
+    "react-dom": "15.6.1",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2"
+  },
+  "devDependencies": {
+    "enzyme": "^2.9.1",
+    "enzyme-to-json": "^1.5.1",
+    "neutrino": "6.1.5",
+    "neutrino-middleware-eslint": "^6.1.5",
+    "neutrino-middleware-sass": "0.0.1",
+    "neutrino-preset-jest": "6.1.5",
+    "neutrino-preset-react": "6.1.5",
+    "neutrino-preset-sass": "^1.0.3",
+    "react-test-renderer": "^15.6.1"
+  },
+  "scripts": {
+    "start": "neutrino start",
+    "build": "neutrino build",
+    "test": "neutrino test --use neutrino-preset-jest",
+    "lint": "neutrino lint"
+  },
+  "license": "ISC"
+}
