@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActivityPage renders correctly 1`] = `
+<main
+  className="col-md-12"
+>
+  <h6
+    className="underlined"
+  >
+     Activity 
+  </h6>
+  <h5>
+     Activity 
+  </h5>
+  <p>
+     
+    See a record of everyone you have shared details with.
+     
+  </p>
+  <Group
+    Component={[Function]}
+    list={Array []}
+    props={
+      Object {
+        "actions": undefined,
+      }
+    }
+    withFn={[Function]}
+  />
+</main>
+`;

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActivityList renders correctly 1`] = `
+<div
+  className="activity panel"
+>
+  <div
+    className="activity-heading panel-heading"
+  />
+  <div
+    className="activity-item clearfix"
+    onClick={[Function]}
+  >
+    <div
+      className="activity-check pull-left"
+    >
+      <icon
+        className="icon icon-activity_tick"
+      />
+    </div>
+    <div
+      className="activity-avatar icon pull-left icon-user_selfie_ph"
+    />
+    <div
+      className="activity-date pull-right"
+    >
+      12:00 01 1 January 1970
+    </div>
+  </div>
+</div>
+`;

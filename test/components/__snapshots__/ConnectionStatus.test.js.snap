@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<span
+  className="connection-status"
+>
+  <span
+    className="connection-status-text pull-right"
+  >
+    Connected
+  </span>
+  <span
+    className="icon icon-connect-on pull-right"
+  />
+</span>
+`;

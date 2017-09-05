@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Topbar renders correctly 1`] = `
+<nav
+  className="topbar navbar"
+>
+  <span
+    className="icon icon-logo"
+  />
+  <ConnectionStatus
+    connected={false}
+  />
+  <span
+    className="topbar-avatar icon icon-user_selfie_ph"
+  />
+</nav>
+`;

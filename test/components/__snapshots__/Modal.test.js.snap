@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal renders correctly 1`] = `
+<div
+  className="modal"
+>
+  <span
+    className="icon icon-dissmiss-mark"
+  />
+  <div
+    className="modal-content"
+  >
+    <span
+      className="modal-close icon icon-dismiss-dark"
+    />
+    <div
+      className="modal-body modal-info"
+    >
+      <span
+        className="modal-avatar icon icon-user_selfie_ph_medium"
+      />
+      <span
+        className="modal-check icon icon-receipt_confirmed"
+      />
+      <h4
+        className="modal-source"
+      >
+         
+         
+      </h4>
+      <p
+        className="modal-message"
+      />
+      <p
+        className="modal-date"
+      >
+        Invalid date
+      </p>
+    </div>
+    <div
+      className="modal-footer"
+    />
+  </div>
+</div>
+`;

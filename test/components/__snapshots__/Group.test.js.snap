@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Group renders correctly 1`] = `
+<div>
+   
+  <div
+    class="group"
+  >
+     
+    <div
+      class="item"
+    />
+    <div
+      class="item"
+    />
+     
+  </div>
+  <div
+    class="group"
+  >
+     
+    <div
+      class="item"
+    />
+    <div
+      class="item"
+    />
+    <div
+      class="item"
+    />
+     
+  </div>
+  <div
+    class="group"
+  >
+     
+    <div
+      class="item"
+    />
+    <div
+      class="item"
+    />
+     
+  </div>
+   
+</div>
+`;
