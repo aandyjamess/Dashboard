@@ -5,7 +5,7 @@
 
 ## Start dev sever
 `npm start`
-And visit localhost:5000/activities
+And visit localhost:5000/activity
 
 ## Test
 `npm run test`

@@ -1,0 +1,22 @@
+@import "./variables";
+
+.topbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
+  height: $topbar-height;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding-left: $topbar-margin-left;
+  padding-right: $topbar-margin-right;
+  border-bottom: 1px solid $navbar-default-border;
+  z-index: 2000;
+  background-color: $navbar-default-bg;
+
+  &-avatar {
+    border: 1px solid grey;
+    border-radius: 50%;
+  }
+}

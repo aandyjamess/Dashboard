@@ -1,0 +1,41 @@
+@import "./variables";
+
+.panel {
+  border-radius: 0;
+  border: 1px solid $color-15;
+  margin-bottom: $gutter;
+  font-size: $font-size-normal;
+  font-weight: normal;
+  box-shadow: none;
+}
+
+.activity {
+  &-item {
+    padding: 15px 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $color-15;
+    }
+  }
+
+  &-heading {
+    padding: 15px 15px;
+    background-color: $color-16;
+    color: $color-3;
+  }
+
+  &-check, &-avatar, &-text  {
+    margin-right: 15px;
+  }
+
+  &-avatar {
+    margin-right: 40px;
+  }
+
+  &-date {
+    margin-left: auto;
+  }
+}

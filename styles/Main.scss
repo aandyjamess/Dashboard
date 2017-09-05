@@ -1,0 +1,55 @@
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+
+@import "~bootstrap-sass/assets/stylesheets/_bootstrap";
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,400italic);
+
+@import "./sprite";
+
+@import "./variables";
+
+@import "./Sidebar";
+
+@import "./Topbar";
+
+@import "./ActivityList";
+
+@import "./Modal";
+
+@import "./App";
+
+@import "./ConnectionStatus";
+
+body {
+  -webkit-font-smoothing: antialiased;
+
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+
+.underlined {
+  padding-bottom: $spacing;
+  border-bottom: 1px solid $color-15;
+}
+
+.icon { display: inline-block; }
+
+p {
+  font-size: $font-size-normal;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin-bottom: $spacing;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $font-color;
+  margin-top: 0;
+}
+
+h1 { font-size: 52px; }
+h2 { font-size: 34px; }
+h3 { font-size: 24px; }
+h4 { font-size: 20px; }
+h5 { font-size: 18px; }
+h6 { font-size: 16px; }

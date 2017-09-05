@@ -1,0 +1,18 @@
+@import "./variables";
+
+.connection-status {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: 24px;
+  height: 100%;
+
+  &.connected {
+    background-color: $color-1a;
+  }
+
+  &-text {
+    margin-right: 15px;
+  }
+}
