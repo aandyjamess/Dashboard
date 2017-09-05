@@ -11,7 +11,7 @@ And visit localhost:5000/activity
 `npm run test`
 
 ## ~~Lint~~
-`npm run lint`
+~~`npm run lint`~~
 
-## Pacakge
+## Package
 `npm run build`
